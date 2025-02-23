@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(19, 99, 28);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: rgb(19, 99, 28);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+}
+
+.navigation a:hover {
+    color: rgb(42, 157, 56);
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(imges/10.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    color: rgb(29, 31, 33);
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.main-btn {
+    color: #f0f0f0;
+    background-color: rgb(29, 31, 33);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em;
+    letter-spacing: 1px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    background-color: rgb(15, 15, 16);
+    transform: scale(1.1);
+}
+
+.social-icon a {
+    color: rgb(15, 16, 15);
+    font-size: 2.85em; /* تكبير الحجم مرة ونصف */
+    font-weight: 600;
+    padding-right: 15px;
+    margin-left: 25px;
+    transition: 0.7s ease;
+}
+
+.social-icon a:hover {
+    transform: scale(1.1);
+    color: rgb(6, 72, 13);
+}
+
+.tittle {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.15);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    color: rgb(6, 72, 13);
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.projects {
+    background-color: #b38b00;
+}
+
+.projects .content {
+    margin-top: 30px;
+}
+
+.projects-card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 15em;
+    width: 90em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.projects-card:hover {
+    transform: scale(1.1);
+}
+
+.project-image img {
+    width: 100%;
+}
+
+.projects-card .project-image:hover {
+    opacity: 0.9;
+}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-category {
+    font-size: 1em;
+    color: #000;
+}
+
+.project-tittle {
+    display: flex;
+    color: rgb(19, 99, 28);
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #b38b00;
+    color: #f0f0f0;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-tittle {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-tittle span {
+    color: rgb(6, 72, 13);
+}
